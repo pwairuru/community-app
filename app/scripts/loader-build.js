@@ -37,6 +37,7 @@
             'angular-utils-pagination':'../bower_components/angular-utils-pagination/dirPagination.min',
             'ng-scrollbar':'../bower_components/ng-scrollbar/dist/ng-scrollbar.min'
         },
+        waitSeconds: 0,
         shim: {
             'angular': { deps: ['jquery','chosen.jquery.min'], exports: 'angular' },
             'angular-resource': { deps: ['angular'] },
